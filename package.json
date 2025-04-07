@@ -1,0 +1,31 @@
+{
+  "name": "review-cv1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^2.8.1",
+    "@langchain/community": "^0.3.39",
+    "@langchain/google-genai": "^0.2.2",
+    "@pinecone-database/pinecone": "^2.2.2",
+    "@qdrant/js-client-rest": "^1.13.0",
+    "dotenv": "^16.4.7",
+    "form-data": "^4.0.2",
+    "formidable": "^2.1.2",
+    "langchain": "^0.3.20",
+    "next": "^15.2.4",
+    "node-fetch": "^3.3.2",
+    "pdf-parse": "^1.1.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  }
+}
